@@ -11,7 +11,7 @@ import SwiftUI
 struct CoinAndDiceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HostingTabBar()
         }
     }
 }

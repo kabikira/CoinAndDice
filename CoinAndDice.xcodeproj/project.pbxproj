@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3B49CB7F292FB28700B1302A /* CoinAndDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CB7E292FB28700B1302A /* CoinAndDiceApp.swift */; };
-		3B49CB81292FB28700B1302A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CB80292FB28700B1302A /* ContentView.swift */; };
 		3B49CB83292FB28800B1302A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B49CB82292FB28800B1302A /* Assets.xcassets */; };
 		3B49CB86292FB28800B1302A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B49CB85292FB28800B1302A /* Preview Assets.xcassets */; };
 		3B49CB90292FB28800B1302A /* CoinAndDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CB8F292FB28800B1302A /* CoinAndDiceTests.swift */; };
 		3B49CB9A292FB28800B1302A /* CoinAndDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CB99292FB28800B1302A /* CoinAndDiceUITests.swift */; };
 		3B49CB9C292FB28800B1302A /* CoinAndDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CB9B292FB28800B1302A /* CoinAndDiceUITestsLaunchTests.swift */; };
+		3B49CBA9292FB2EF00B1302A /* HostingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CBA8292FB2EF00B1302A /* HostingTabBar.swift */; };
+		3B49CBAB292FB33A00B1302A /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CBAA292FB33A00B1302A /* CoinView.swift */; };
+		3B49CBAD292FB35000B1302A /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B49CBAC292FB35000B1302A /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		3B49CB7B292FB28700B1302A /* CoinAndDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinAndDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B49CB7E292FB28700B1302A /* CoinAndDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAndDiceApp.swift; sourceTree = "<group>"; };
-		3B49CB80292FB28700B1302A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B49CB82292FB28800B1302A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B49CB85292FB28800B1302A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B49CB8B292FB28800B1302A /* CoinAndDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinAndDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		3B49CB95292FB28800B1302A /* CoinAndDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinAndDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B49CB99292FB28800B1302A /* CoinAndDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAndDiceUITests.swift; sourceTree = "<group>"; };
 		3B49CB9B292FB28800B1302A /* CoinAndDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAndDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B49CBA8292FB2EF00B1302A /* HostingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingTabBar.swift; sourceTree = "<group>"; };
+		3B49CBAA292FB33A00B1302A /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		3B49CBAC292FB35000B1302A /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				3B49CB7E292FB28700B1302A /* CoinAndDiceApp.swift */,
-				3B49CB80292FB28700B1302A /* ContentView.swift */,
 				3B49CB82292FB28800B1302A /* Assets.xcassets */,
+				3B49CBA8292FB2EF00B1302A /* HostingTabBar.swift */,
+				3B49CBAA292FB33A00B1302A /* CoinView.swift */,
+				3B49CBAC292FB35000B1302A /* DiceView.swift */,
 				3B49CB84292FB28800B1302A /* Preview Content */,
 			);
 			path = CoinAndDice;
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B49CB81292FB28700B1302A /* ContentView.swift in Sources */,
+				3B49CBAD292FB35000B1302A /* DiceView.swift in Sources */,
+				3B49CBAB292FB33A00B1302A /* CoinView.swift in Sources */,
+				3B49CBA9292FB2EF00B1302A /* HostingTabBar.swift in Sources */,
 				3B49CB7F292FB28700B1302A /* CoinAndDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
