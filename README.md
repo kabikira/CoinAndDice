@@ -1,5 +1,5 @@
 # CoinAndDice
-シンプルなコイントスとサイコロのアプリ
+シンプルなコイントスとサイコロのアプリ  
 <img width="150" src="https://github.com/user-attachments/assets/db9758f3-a056-4c3f-bffb-ffd99d25a647">
 <img width="150" src="https://github.com/user-attachments/assets/1c9e6e47-373e-4197-8125-266ffda81f3d">
 <img width="150" src="https://github.com/user-attachments/assets/2ac1ebb2-317e-4b76-b0be-c949d2310b0f">
